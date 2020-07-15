@@ -73,7 +73,7 @@ class Kinopoisk implements \Stalker\Lib\StbApi\vclubinfo
         }
 
         if (empty($movie_info['name'])){
-            throw new KinopoiskException(sprintf(_("Movie name in '%s' not found"), $movie_url), $page); 
+            //throw new KinopoiskException(sprintf(_("Movie name in '%s' not found"), $movie_url), $page); 
         }
 
         // Original name
